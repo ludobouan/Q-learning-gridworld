@@ -21,5 +21,5 @@ Run python `Learner.py` in terminal
 None
 
 ## Credits
-[Siraj Ravel](https://github.com/llSourcell/q_learning_demo/)
+[Siraj Ravel](https://github.com/llSourcell/q_learning_demo/)  
 [PhillipeMorere](https://github.com/PhilippeMorere)
