@@ -9,9 +9,7 @@ Submission to Siraj Raval's [Q-learning competition](https://www.youtube.com/wat
 > * Bonus points if you modify the bot in some way that makes it more efficient
 
 ## Modifications done  
-* Made the game world bigger
-* Added more obstacles
-* Made the bot start in a different position
+* All the things listed above and...
 * Changed the bot's policy to epsilon-greedy
 * Reduce epsilon (exploration) exponentialy
 * Reduce alpha (learning rate) exponentialy
