@@ -8,7 +8,7 @@ Submission to Siraj Raval's [Q-learning competition](https://www.youtube.com/wat
 > * have the bot start in a different position
 > * Bonus points if you modify the bot in some way that makes it more efficient
 
-## Modifications done  
+## Improvements 
 * All the things listed above and...
 * Changed the bot's policy to [epsilon-greedy](http://www0.cs.ucl.ac.uk/staff/D.Silver/web/Teaching_files/XX.pdf)
   * Reduce epsilon (exploration) exponentialy
