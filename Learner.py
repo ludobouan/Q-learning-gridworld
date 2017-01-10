@@ -89,23 +89,16 @@ def run():
     s1 = World.player
     a1, q_val1 = policy(s1)
     while True:
-        # print('epsilon :', epsilon)
-        # print('alpha :', alpha)
-        # print('old q: ', Q[s1][a1])
         # Do the action
         (s1, a1, r1, s2) = do_action(a1)
-        # print('reward: ', r1)
+
 
         # Update Q
-        # max_act, max_val = max_Q(s2)
-        # inc_Q(s, a, alpha, r + discount * max_val)
-
         a2, q_val2 = policy(s2)
         a_best, q_best = max_Q(s2)
         delta = r1 + discount * q_best - Q[s1][a1]
-        # print('delta :', delta)
         E[s1][a1] = 1
-        # print('E: ', E[s1][a1])
+
 
         for state in states:
             for action in actions:
@@ -118,7 +111,6 @@ def run():
         s1 = s2
         a1 = a2
         q_val1 = q_val2
-        # print('-----------------')
 
         # Check if the game has restarted
         t += 1.0
@@ -126,7 +118,8 @@ def run():
             World.restart_game()
             reset_E()
             time.sleep(0.01)
-            print(epsilon, alpha)
+
+            # print(epsilon, alpha)
 
             t = 1.0
 
