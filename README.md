@@ -10,9 +10,8 @@ Submission to Siraj Raval's [Q-learning competition](https://www.youtube.com/wat
 
 ## Modifications done  
 * All the things listed above and...
-* Changed the bot's policy to epsilon-greedy
-* Reduce epsilon (exploration) exponentialy
-* Reduce alpha (learning rate) exponentialy
+* Changed the bot's policy to [epsilon-greedy](http://www0.cs.ucl.ac.uk/staff/D.Silver/web/Teaching_files/XX.pdf)
+  * Reduce epsilon (exploration) exponentialy
 * Added Eligibilty traces with [Walkin's algorithm](https://webdocs.cs.ualberta.ca/~sutton/book/ebook/node78.html)
 
 ## Usage
