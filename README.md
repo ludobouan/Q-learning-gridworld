@@ -10,6 +10,7 @@ Submission to Siraj Raval's [Q-learning competition](https://www.youtube.com/wat
 
 ## Improvements 
 * All the things listed above (Smiley face level that is bigger, has more obstacles, and the bot starts in a different position)
+* Made the code compatible with Python 3
 * Changed the main loop to a more traditional episode - step structure
 * Added [Eligibilty traces](https://webdocs.cs.ualberta.ca/~sutton/book/ebook/node72.html) with both TD-lambda and [Walkin's algorithm](https://webdocs.cs.ualberta.ca/~sutton/book/ebook/node78.html) for greedy and epsilon-greedy policies respectfully.
 * Changed the bot's policy to [epsilon-greedy](http://www0.cs.ucl.ac.uk/staff/D.Silver/web/Teaching_files/XX.pdf)
