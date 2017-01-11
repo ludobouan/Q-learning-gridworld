@@ -18,7 +18,7 @@ Submission to Siraj Raval's [Q-learning competition](https://www.youtube.com/wat
 ## Comparison
 | Original (greedy) | Greedy with eligibility traces | Epsilon-Greedy with eligibility traces |
 | :------------- |:-------------:| :-----:|
-| <div style="text-align: justified"> your-text-here Greedy policy, Q values are initialized to 0.1 to induce exploration</div>| Same greedy policy but uses eligibility traces to make learning considerably  faster | Uses epsilon-greedy policy and eligibility traces, turns out to be less effective than the greedy policy with traces but that may be due to my non-optimized hyperparemeters |  
+| your-text-here Greedy policy, Q values are initialized to 0.1 to induce exploration | Same greedy policy but uses eligibility traces to make learning considerably  faster | Uses epsilon-greedy policy and eligibility traces, turns out to be less effective than the greedy policy with traces but that may be due to my non-optimized hyperparemeters |  
 | 40 episodes to solution | 10 episodes to solution | 15 episodes to solution |
 | Sub-optimal solution | Sub-optimal solution | Will converge to optimal solution with right hyperparameters |
 
