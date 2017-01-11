@@ -94,7 +94,7 @@ def run():
     time.sleep(1)
     s1 = World.player
     a1, q_val1 = policy(s1)
-    for episode_num in range(60):
+    for episode_num in range(1):
         steps = 0
         score = 0
         while not World.has_restarted():
@@ -135,7 +135,7 @@ def run():
         alpha = max(0.1, pow(episode_num+1, -0.4))
         epsilon = min(0.3, pow(episode_num+1, -1.2))
 
-    with open('log_eps-greedy_traces_0.csv', 'w') as csvfile:
+    with open('data/log_eps-greedy_traces_0.csv', 'w') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=['episode', 'score', 'steps', 'alpha', 'epsilon'])
         writer.writeheader()
         for episode in log:

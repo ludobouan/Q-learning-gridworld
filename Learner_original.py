@@ -98,7 +98,7 @@ def run():
         log.append({'episode': episode_num, 'score': score, 'steps': steps, 'alpha': alpha, 'epsilon': 0})
         time.sleep(0.01)
 
-    with open('log_original_0.csv', 'w') as csvfile:
+    with open('data/log_original_0.csv', 'w') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=['episode', 'score', 'steps', 'alpha', 'epsilon'])
         writer.writeheader()
         for episode in log:
