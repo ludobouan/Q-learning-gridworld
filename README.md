@@ -25,7 +25,7 @@ Submission to Siraj Raval's [Q-learning competition](https://www.youtube.com/wat
 ![Graphic of score as function of episode number](https://github.com/ludobouan/Q-learning-gridworld/blob/master/data/Compare.png)
 
 ## Custom gridworld level
-<img src="https://github.com/ludobouan/Q-learning-gridworld/blob/master/data/Level.png" alt="Image of custom gridworld level" style="width: 200px;"/>
+<img src="https://github.com/ludobouan/Q-learning-gridworld/blob/master/data/Level.png" alt="Image of custom gridworld level" style="width: 150px;"/>
 ## Usage
 Run python `Learner.py` in terminal
 
