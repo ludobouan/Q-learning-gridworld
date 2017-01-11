@@ -15,8 +15,8 @@ Submission to Siraj Raval's [Q-learning competition](https://www.youtube.com/wat
 * Changed the bot's policy to [epsilon-greedy](http://www0.cs.ucl.ac.uk/staff/D.Silver/web/Teaching_files/XX.pdf)
  
 ## Comparison
-| Original (greedy) | Greedy with Eligibility Traces | Epsilon-Greedy with eligibility traces |
-| ------------- |:-------------:| -----:|
+| Original (greedy) | Greedy with eligibility traces | Epsilon-Greedy with eligibility traces |
+| ------------- |:-------------:| :-----:|
 | Greedy policy, Q values are initialized to 0.1 to induce exploration| Same greedy policy but uses eligibility traces to make learning faster | Uses epsilon-greedy policy and eligibility traces, turns out to be less effective than the greedy policy with traces|
 
 ![Graphic of score as function of episode number](https://github.com/ludobouan/Q-learning-gridworld/blob/master/data/Compare.png)
