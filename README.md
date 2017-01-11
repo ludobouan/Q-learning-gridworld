@@ -29,6 +29,7 @@ Submission to Siraj Raval's [Q-learning competition](https://www.youtube.com/wat
 Run python `Learner.py` in terminal
 
 ## Dependencies
+* Tkinter
 * Matplotlib
 * Seaborn
 
