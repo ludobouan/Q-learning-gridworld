@@ -1,12 +1,6 @@
 # Q-learning-gridworld
-
+Reinforcement learning on gridworld with Q-learning  
 Submission to Siraj Raval's [Q-learning competition](https://www.youtube.com/watch?v=A5eihauRQvo&t=1s)
-
-> The challenge for this video is to 
-> * modify the the game world so that it's bigger
-> * add more obstacles
-> * have the bot start in a different position
-> * Bonus points if you modify the bot in some way that makes it more efficient
 
 ## Improvements 
 * All the things listed above (Smiley face level that is bigger, has more obstacles, and the bot starts in a different position)
